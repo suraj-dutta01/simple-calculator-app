@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(9, 9, 9);
+}
+#panal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    height: 70%;
+    width: 22%;
+    background-color: rgb(32, 29, 29);
+    border-radius: 11px;
+}
+#panal h2{
+    margin-left: 86.6px;
+    color: white;
+    margin-top: 10px;
+}
+#ptop{
+    margin-top: 10px ;
+    margin-left: 16.4px;
+    height: 26%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+}
+#display{  
+    height: 70%;
+    width: 95%;
+    background-color: rgb(120, 116, 116);
+    border-radius: 8px;
+}
+#pbtm{
+    display: flex;
+    justify-content: center;
+   
+    height: 65%;
+    width: 85%;
+    margin-left: 24.5px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 17px;
+    color: rgb(41, 40, 40);
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 163, 3);
+    border-radius: 50%;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    font-weight: bold;
+}
+.box:hover{
+    background-color: rgb(247, 193, 0);
+}
